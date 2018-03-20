@@ -12,10 +12,16 @@ firebase.initializeApp(config);
 // Reference messages collection
 var messagesRef = firebase.database().ref('messages');
 
+// Reference subscriptions collection
+var subscriptionsRef = firebase.database().ref('subscriptions');
+
 // Listen for form submit
 document.getElementById('contactForm').addEventListener('submit', submitForm);
 
-// Submit form
+// Listen for newsletter submit
+document.getElementById('subscription-form').addEventListener('submit', submitSubscription);
+
+// Submit contact form
 function submitForm(e) {
     e.preventDefault();
 
@@ -28,15 +34,37 @@ function submitForm(e) {
     saveMessage(name, email, message);
 
     // Show alert
-    document.querySelector('.alert').style.display = 'block';
+    document.querySelector('.contact-success').style.display = 'block';
 
     // Hide alert after 3 secondes
     setTimeout(function () {
-        document.querySelector('.alert').style.display = 'none';
+        document.querySelector('.contact-success').style.display = 'none';
     }, 3000);
 
     // Reset Form
     document.getElementById('contactForm').reset();
+}
+
+// Submit contact form
+function submitSubscription(e) {
+    e.preventDefault();
+
+    // Get values
+    var semail = getInputVal('semail');
+
+    // Save message
+    saveSubscription(semail);
+
+    // Show alert
+    document.querySelector('.subscription-success').style.display = 'block';
+
+    // Hide alert after 3 secondes
+    setTimeout(function () {
+        document.querySelector('.subscription-success').style.display = 'none';
+    }, 3000);
+
+    // Reset Form
+    document.getElementById('subscription-form').reset();
 }
 
 // Function to get form values
@@ -51,5 +79,13 @@ function saveMessage(name, email, message) {
         name: name,
         email: email,
         message: message
+    });
+}
+
+// Save the email to firebase
+function saveSubscription(semail) {
+    var newSubscriptionRef = subscriptionsRef.push();
+    newSubscriptionRef.set({
+        email: semail
     });
 }

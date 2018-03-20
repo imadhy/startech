@@ -879,7 +879,7 @@
             </div>
             <div class="col-sm-6 col-md-6 col-lg-4">
               <div class="callout-btn-box">
-                <form id="subscription-form" role="form" method="post" action="php/subscribe.php">
+                <form id="subscription-form" role="form">
                   <div class="input-group">
                     <input class="form-control" type="email" id="semail" name="semail" placeholder="Your Email" data-validation-required-message="Please enter your email address."
                       required="required" />
@@ -888,7 +888,10 @@
                     </span>
                   </div>
                 </form>
-                <div class="text-center" id="subscription-response"></div>
+                <div class="text-center" id="subscription-response">
+                  <div class="alert alert-success subscription-success" role="alert">
+                    <strong>Success!</strong> Thank you for subscribing to our newsletter.</div>
+                </div>
               </div>
             </div>
           </div>
@@ -902,7 +905,7 @@
               <div class="module-subtitle font-serif"></div>
             </div>
           </div>
-          <div class="alert alert-success alert-dismissible" role="alert">
+          <div class="alert alert-success alert-dismissible contact-success" role="alert">
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -931,7 +934,6 @@
                   <button class="btn btn-block btn-round btn-d" id="cfsubmit" type="submit">Submit</button>
                 </div>
               </form>
-              <div class="ajax-response font-alt" id="contactFormResponse"></div>
             </div>
           </div>
         </div>
@@ -1085,7 +1087,7 @@
   <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
   <script src="assets/js/plugins.js"></script>
   <script src="assets/js/main.js"></script>
-  <script src="assets/js/contactus.js"></script>
+  <script src="assets/js/forms.js"></script>
 </body>
 
 </html>

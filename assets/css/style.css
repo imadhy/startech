@@ -645,7 +645,11 @@ a,
   background-color: rgba(66, 60, 130, 0.5);
 }
 
-.alert {
+.contact-success {
+  display: none;
+}
+
+.subscription-success {
   display: none;
 }
 
