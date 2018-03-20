@@ -2878,7 +2878,7 @@ Google map
     top: 50%;
     margin-top: -6px;
     font: normal normal normal 14px/1 FontAwesome;
-    font-size: 9px;
+    font-size: 12px;
     content: "\f105";
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
@@ -2975,6 +2975,7 @@ Google map
   .navbar-custom .cart-item-number {
     display: none;
   }
+
   .navbar-custom .navbar-cart>a:after {
     content: "\f107";
   }
