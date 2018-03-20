@@ -1,6 +1,7 @@
 /*--------------------------------------------------------------
 	Common
 --------------------------------------------------------------*/
+
 html {
   overflow-y: scroll;
   overflow-x: hidden;
@@ -41,6 +42,7 @@ iframe {
 }
 
 /* Transition elsements */
+
 a,
 .btn {
   transition: all 0.125s ease-in-out 0s;
@@ -54,7 +56,7 @@ a,
 .team-detail,
 .team-image:after,
 .work-caption,
-.work-image > img,
+.work-image>img,
 .work-image:after,
 .post-thumbnail,
 .post-video,
@@ -63,6 +65,7 @@ a,
 }
 
 /* Reset box-shadow */
+
 .btn,
 .well,
 .panel,
@@ -75,6 +78,7 @@ a,
 }
 
 /* Reset border-radius */
+
 .well,
 .label,
 .alert,
@@ -83,8 +87,8 @@ a,
 .modal-content,
 .panel-heading,
 .panel-group .panel,
-.nav-tabs > li > a,
-.nav-pills > li > a {
+.nav-tabs>li>a,
+.nav-pills>li>a {
   border-radius: 2px;
 }
 
@@ -114,7 +118,7 @@ a,
   margin: -1px 0 0 -1px;
 }
 
-.et-icons .box1 > span {
+.et-icons .box1>span {
   display: inline-block;
   border-right: 1px solid #e5e5e5;
   min-width: 60px;
@@ -125,14 +129,14 @@ a,
   margin-right: 5px;
 }
 
-.fa-icons > div {
+.fa-icons>div {
   padding: 0;
   border: 1px solid #e5e5e5;
   margin: -1px 0 0 -1px;
   font-size: 13px;
 }
 
-.fa-icons > div > i {
+.fa-icons>div>i {
   display: inline-block;
   margin-right: 5px;
   min-width: 40px;
@@ -150,7 +154,8 @@ a,
 }
 
 /* Sections */
-.navbar-custom + .main {
+
+.navbar-custom+.main {
   margin-top: 50px;
 }
 
@@ -170,6 +175,7 @@ a,
 }
 
 /* Module header */
+
 .module-small {
   padding: 70px 0;
 }
@@ -201,6 +207,7 @@ a,
 }
 
 /* Sections dividers */
+
 .divider-w {
   border-top: 1px solid #eaeaea;
   margin: 0;
@@ -212,6 +219,7 @@ a,
 }
 
 /* Half-image */
+
 .side-image {
   position: absolute;
   height: 100%;
@@ -228,6 +236,7 @@ a,
 }
 
 /* Dark background */
+
 .bg-dark,
 .bg-dark-30,
 .bg-dark-60,
@@ -281,24 +290,17 @@ a,
   top: 0;
 }
 
-.bg-gradient:before {
+/* .bg-gradient:before {
   position: absolute;
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk1JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjk1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-  /* FF3.6+ */
-  /* Chrome,Safari4+ */
-  /* Chrome10+,Safari5.1+ */
-  /* Opera 11.10+ */
-  /* IE10+ */
   background: linear-gradient(to bottom, rgba(40, 115, 113, 0.57) 25%, rgba(115, 54, 31, 0.67) 75%);
-  /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#000000',GradientType=0 );
-  /* IE6-8 */
   content: " ";
   height: 100%;
   width: 100%;
   left: 0;
   top: 0;
-}
+} */
 
 .bg-light {
   background: #f6f6f6;
@@ -310,6 +312,7 @@ a,
 }
 
 /* Vertical margin, padding */
+
 .p-0 {
   padding: 0 !important;
 }
@@ -561,6 +564,7 @@ a,
 }
 
 /* Scroll to top */
+
 .scroll-up {
   position: fixed;
   display: none;
@@ -589,6 +593,7 @@ a,
 }
 
 /* Video */
+
 .video-controls-box {
   position: absolute !important;
   bottom: 40px;
@@ -604,6 +609,7 @@ a,
 }
 
 /* Landing Page */
+
 .landing-reason:before {
   position: absolute;
   content: " ";
@@ -639,6 +645,10 @@ a,
   background-color: rgba(66, 60, 130, 0.5);
 }
 
+.alert {
+  display: none;
+}
+
 .alert i {
   margin-right: 5px;
 }
@@ -646,6 +656,7 @@ a,
 /*--------------------------------------------------------------
 	Buttons
 --------------------------------------------------------------*/
+
 .btn {
   border-radius: 0;
   font-family: "Roboto Condensed", sans-serif;
@@ -750,6 +761,7 @@ a,
 }
 
 /* Buttons size */
+
 .btn.btn-lg {
   padding: 12px 45px;
   font-size: 13px;
@@ -794,7 +806,9 @@ a,
 /*--------------------------------------------------------------
 	Forms
 --------------------------------------------------------------*/
+
 /* Selection */
+
 ::-moz-selection {
   background: #000;
   color: #fff;
@@ -811,6 +825,7 @@ a,
 }
 
 /* Forms common style */
+
 .form-control {
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
@@ -827,13 +842,15 @@ a,
 }
 
 /* Forms size */
+
 .input-lg,
 .form-horizontal .form-group-lg .form-control {
   height: 43px;
   font-size: 13px;
 }
 
-.input-sm, .form-horizontal .form-group-sm .form-control {
+.input-sm,
+.form-horizontal .form-group-sm .form-control {
   height: 29px;
   font-size: 10px;
 }
@@ -853,11 +870,13 @@ a,
 /*--------------------------------------------------------------
 	Typography
 --------------------------------------------------------------*/
+
 a {
   color: #111;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none;
   color: #aaa;
   outline: 0;
@@ -867,16 +886,25 @@ a:hover, a:focus {
   color: #aaa;
 }
 
-.bg-dark a:hover, .bg-dark a:focus {
+.bg-dark a:hover,
+.bg-dark a:focus {
   color: #fff;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1.4;
   font-weight: 400;
 }
 
-p, ol, ul, blockquote {
+p,
+ol,
+ul,
+blockquote {
   margin: 0 0 20px;
 }
 
@@ -929,11 +957,12 @@ blockquote {
   margin-bottom: 20px;
 }
 
-.module-title + .module-subtitle {
+.module-title+.module-subtitle {
   margin-top: -35px;
 }
 
 /* Restaurant module header */
+
 .alt-module-subtitle {
   display: table;
 }
@@ -946,6 +975,7 @@ blockquote {
 }
 
 /* Finance case study header */
+
 .finance-image-content {
   border: 1px solid #e5e5e5;
   padding: 60px 0px;
@@ -960,11 +990,12 @@ blockquote {
 }
 
 /* Landing Page */
+
 .landing-reason .module-title {
   color: #e6af4b;
 }
 
-.landing-reason .module-title + .module-subtitle {
+.landing-reason .module-title+.module-subtitle {
   margin-top: -60px;
   margin-bottom: 40px;
 }
@@ -979,6 +1010,7 @@ blockquote {
 }
 
 /*  Special Portfolio Page  */
+
 .special-portfolio-header-title {
   border: 1px solid rgba(255, 255, 255, 0.7);
   font-size: 50px;
@@ -989,11 +1021,13 @@ blockquote {
 /*--------------------------------------------------------------
 	Slider & Carousel
 --------------------------------------------------------------*/
+
 /* -------------------------------------------------------------------
 General Styles - FlexSlider
 ------------------------------------------------------------------- */
+
 .flex-direction-nav a,
-.flex-control-nav > li > a {
+.flex-control-nav>li>a {
   transition: all 0.3s ease-in-out 0s;
 }
 
@@ -1033,12 +1067,12 @@ General Styles - FlexSlider
   transform: translateX(-50%);
 }
 
-.flex-control-nav > li {
+.flex-control-nav>li {
   display: inline-block;
   margin: 5px 3px;
 }
 
-.flex-control-nav > li > a {
+.flex-control-nav>li>a {
   background: transparent;
   border: 1px solid #fff;
   display: block;
@@ -1047,19 +1081,20 @@ General Styles - FlexSlider
   border-radius: 6px;
 }
 
-.flex-control-nav > li > a:hover,
-.flex-control-nav > li > a.flex-active {
+.flex-control-nav>li>a:hover,
+.flex-control-nav>li>a.flex-active {
   background: #fff;
 }
 
 /* -------------------------------------------------------------------
 Hero Slider
 ------------------------------------------------------------------- */
+
 .hero-slider {
   margin: 0 !important;
 }
 
-.hero-slider .slides > li {
+.hero-slider .slides>li {
   display: none;
   -webkit-backface-visibility: hidden;
 }
@@ -1095,6 +1130,7 @@ Hero Slider
 }
 
 /* Caption */
+
 .titan-caption {
   position: relative;
   display: table;
@@ -1120,6 +1156,7 @@ Hero Slider
 /*
 Photography Page Slider
 */
+
 .photography-page .image-caption {
   bottom: 20px;
   position: absolute;
@@ -1141,6 +1178,7 @@ Photography Page Slider
 /* -------------------------------------------------------------------
 General Styles - Owlcarousel
 ------------------------------------------------------------------- */
+
 .owl-controls {
   margin-top: 40px;
 }
@@ -1165,7 +1203,7 @@ General Styles - Owlcarousel
   background: #111;
 }
 
-.owl-controls .owl-buttons > div {
+.owl-controls .owl-buttons>div {
   display: inline-block;
   margin: 5px;
   font-size: 14px;
@@ -1175,6 +1213,7 @@ General Styles - Owlcarousel
 /*--------------------------------------------------------------
 	Preloader
 --------------------------------------------------------------*/
+
 .page-loader {
   position: fixed;
   background: #000;
@@ -1238,6 +1277,7 @@ General Styles - Owlcarousel
 /*--------------------------------------------------------------
 	Navbar
 --------------------------------------------------------------*/
+
 .navbar-custom {
   background-color: rgba(10, 10, 10, 0.9);
   border: 0;
@@ -1269,12 +1309,12 @@ General Styles - Owlcarousel
   color: #fff;
 }
 
-.navbar-custom .nav li > a {
+.navbar-custom .nav li>a {
   position: relative;
   color: rgba(255, 255, 255, 0.7);
 }
 
-.navbar-custom .dropdown-menu > li > a {
+.navbar-custom .dropdown-menu>li>a {
   border-bottom: 1px solid rgba(73, 71, 71, 0.15) !important;
   padding: 11px 15px;
   letter-spacing: 2px;
@@ -1296,18 +1336,18 @@ General Styles - Owlcarousel
   left: auto;
 }
 
-.navbar-custom .nav > li > a:focus,
-.navbar-custom .nav > li > a:hover,
-.navbar-custom .nav .open > a,
-.navbar-custom .nav .open > a:focus,
-.navbar-custom .nav .open > a:hover,
-.navbar-custom .dropdown-menu > li > a:focus,
-.navbar-custom .dropdown-menu > li > a:hover {
+.navbar-custom .nav>li>a:focus,
+.navbar-custom .nav>li>a:hover,
+.navbar-custom .nav .open>a,
+.navbar-custom .nav .open>a:focus,
+.navbar-custom .nav .open>a:hover,
+.navbar-custom .dropdown-menu>li>a:focus,
+.navbar-custom .dropdown-menu>li>a:hover {
   background: none;
   color: #fff;
 }
 
-.navbar-custom .dropdown-menu > li > a:hover {
+.navbar-custom .dropdown-menu>li>a:hover {
   background: rgba(255, 255, 255, 0.1) !important;
 }
 
@@ -1365,9 +1405,11 @@ General Styles - Owlcarousel
 	color: #999;
 	margin-top: -20px;
 }*/
+
 /*--------------------------------------------------------------
 	Header
 --------------------------------------------------------------*/
+
 .home-section {
   position: relative;
   background-color: #fff;
@@ -1402,21 +1444,25 @@ General Styles - Owlcarousel
 }
 
 /* Agency Page Header */
+
 .agency-page-header:before {
   background: transparent;
 }
 
 /* About us Page Header */
+
 .about-page-header:before {
   background: rgba(2, 2, 2, 0.2);
 }
 
 /* Service Page Header */
+
 .service-page-header:before {
   background: rgba(2, 2, 2, 0.1);
 }
 
 /* Pricing Page Header */
+
 .pricing-page-header {
   background-position: 40% 14%;
   background-repeat: no-repeat;
@@ -1427,6 +1473,7 @@ General Styles - Owlcarousel
 }
 
 /* Gallery Page Header */
+
 .gallery-page-header {
   background-position: 50% 0%;
   background-repeat: no-repeat;
@@ -1437,6 +1484,7 @@ General Styles - Owlcarousel
 }
 
 /* Contact Page Header */
+
 .contact-page-header {
   background-position: 13% 45%;
   background-repeat: no-repeat;
@@ -1447,11 +1495,13 @@ General Styles - Owlcarousel
 }
 
 /* FAQ Page Header */
+
 .faq-page-header:before {
   background: rgba(2, 2, 2, 0.15);
 }
 
 /* Blog Page Header */
+
 .blog-page-header {
   background-position: 50% 24%;
   background-repeat: no-repeat;
@@ -1462,6 +1512,7 @@ General Styles - Owlcarousel
 }
 
 /* Restaurant menu Page Header */
+
 .restaurant-menu-bg:before {
   background: rgba(2, 2, 2, 0.4);
 }
@@ -1475,6 +1526,7 @@ General Styles - Owlcarousel
 }
 
 /* Portfolio Page Header */
+
 .portfolio-page-header {
   background-position: 50% 50%;
 }
@@ -1484,6 +1536,7 @@ General Styles - Owlcarousel
 }
 
 /* Landing Page Header */
+
 .landing-header:before {
   position: absolute;
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(119, 47, 109, 0.52) 95%, rgba(115, 35, 105, 0.58) 100%);
@@ -1505,6 +1558,7 @@ General Styles - Owlcarousel
 /*--------------------------------------------------------------
 	Footer
 --------------------------------------------------------------*/
+
 .footer {
   padding: 10px 0;
 }
@@ -1525,6 +1579,7 @@ General Styles - Owlcarousel
 /* -------------------------------------------------------------
 Google map
 ------------------------------------------------------------- */
+
 #map-section {
   position: relative;
   height: 450px;
@@ -1543,6 +1598,7 @@ Google map
 /*--------------------------------------------------------------
 	Services & Features
 --------------------------------------------------------------*/
+
 .features-item {
   margin: 20px 0;
   text-align: center;
@@ -1588,6 +1644,7 @@ Google map
 }
 
 /* Content box */
+
 .content-box {
   margin: 20px 0;
   text-align: center;
@@ -1603,6 +1660,7 @@ Google map
 /*--------------------------------------------------------------
 	Team
 --------------------------------------------------------------*/
+
 .team-item {
   position: relative;
   text-align: center;
@@ -1689,6 +1747,7 @@ Google map
 /*--------------------------------------------------------------
 	Restaurant Menu
 --------------------------------------------------------------*/
+
 .menu {
   border-bottom: 1px dotted #e5e5e5;
   padding: 0 0 10px;
@@ -1710,6 +1769,7 @@ Google map
 /*--------------------------------------------------------------
 	Price Table
 --------------------------------------------------------------*/
+
 .price-table {
   background: #fff;
   border: 1px solid #eaeaea;
@@ -1799,7 +1859,7 @@ Google map
   padding: 7px 0;
 }
 
-.price-details li > span {
+.price-details li>span {
   text-decoration: line-through;
   color: #aaa;
 }
@@ -1807,6 +1867,7 @@ Google map
 /*--------------------------------------------------------------
 	Fun fact
 --------------------------------------------------------------*/
+
 .count-item {
   text-align: center;
 }
@@ -1819,13 +1880,14 @@ Google map
 /*--------------------------------------------------------------
 	Video Box
 --------------------------------------------------------------*/
+
 .video-box {
   text-align: center;
   padding: 40px 0;
 }
 
-.video-box-icon > a > i,
-.video-box-icon > a > span {
+.video-box-icon>a>i,
+.video-box-icon>a>span {
   line-height: 1.8;
   font-size: 40px;
   color: #fff;
@@ -1844,7 +1906,9 @@ Google map
 /*--------------------------------------------------------------
 	Portfolio
 --------------------------------------------------------------*/
+
 /* Portfolio filter */
+
 .filter {
   text-align: center;
   list-style: none;
@@ -1852,13 +1916,14 @@ Google map
   margin: 0 0 70px;
 }
 
-.filter > li {
+.filter>li {
   display: inline-block;
   padding: 0 0 10px;
   margin: 0 25px;
 }
 
 /* Portfolio grid */
+
 .works-grid {
   list-style: none;
   padding: 0;
@@ -1895,7 +1960,7 @@ Google map
   width: 20%;
 }
 
-.work-item > a {
+.work-item>a {
   position: relative;
   display: block;
   overflow: hidden;
@@ -1947,7 +2012,7 @@ Google map
   background: rgba(0, 0, 0, 0.6);
 }
 
-.work-item:hover .work-image > img {
+.work-item:hover .work-image>img {
   -webkit-transform: scale(1.1) rotate(2deg);
   -ms-transform: scale(1.1) rotate(2deg);
   transform: scale(1.1) rotate(2deg);
@@ -1963,6 +2028,7 @@ Google map
 }
 
 /* Work item white background*/
+
 .works-grid.works-hover-w .work-title {
   color: #111;
 }
@@ -1972,6 +2038,7 @@ Google map
 }
 
 /* Work item gradien background*/
+
 .works-grid.works-hover-g .work-image:after {
   opacity: 0;
 }
@@ -1983,7 +2050,7 @@ Google map
 .works-grid.works-hover-g .work-item:hover .work-image:after {
   background: #6fe29e;
   background: linear-gradient(135deg, rgba(111, 226, 158, 0.8) 0%, rgba(91, 218, 209, 0.8) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6fe29e', endColorstr='#5bdad1',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6fe29e', endColorstr='#5bdad1', GradientType=1);
   opacity: 1;
 }
 
@@ -1994,6 +2061,7 @@ Google map
 /*--------------------------------------------------------------
 	Single Portfolio
 --------------------------------------------------------------*/
+
 .work-details {
   margin: 0 0 20px;
 }
@@ -2009,7 +2077,7 @@ Google map
   margin: 0;
 }
 
-.work-details ul > li {
+.work-details ul>li {
   border-bottom: 1px dotted #c2c2c2;
   padding: 0 0 5px;
   margin: 0 0 5px;
@@ -2018,6 +2086,7 @@ Google map
 /*--------------------------------------------------------------
 	Call to action
 --------------------------------------------------------------*/
+
 .callout-text {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -2041,6 +2110,7 @@ Google map
 /*--------------------------------------------------------------
 	Testimonial
 --------------------------------------------------------------*/
+
 .testimonial:before {
   background: rgba(2, 2, 2, 0.4);
 }
@@ -2072,6 +2142,7 @@ Google map
 /*--------------------------------------------------------------
 	Gallery
 --------------------------------------------------------------*/
+
 .gallery-item {
   position: relative;
   text-align: center;
@@ -2134,6 +2205,7 @@ Google map
 }
 
 /* Gallery hover */
+
 .gallery-item:hover .gallery-image:after {
   background: rgba(0, 0, 0, 0.6);
 }
@@ -2149,6 +2221,7 @@ Google map
 /*--------------------------------------------------------------
 	Blog Post
 --------------------------------------------------------------*/
+
 .post {
   margin: 0 0 80px;
 }
@@ -2196,6 +2269,7 @@ Google map
 }
 
 /* Post columns */
+
 .post-columns .post {
   margin: 0 0 60px;
 }
@@ -2245,7 +2319,9 @@ Google map
 /*--------------------------------------------------------------
 	Widgets
 --------------------------------------------------------------*/
+
 /* Progress bars */
+
 .progress {
   overflow: visible;
   height: 4px;
@@ -2277,11 +2353,13 @@ Google map
 }
 
 /* Tabs */
+
 .tab-content .tab-pane {
   padding: 20px 0;
 }
 
 /* Accordion */
+
 .panel-title {
   font-size: 14px;
 }
@@ -2307,21 +2385,22 @@ Google map
 }
 
 /* Tables */
-.table-border > tbody > tr > td,
-.table-border > tbody > tr > th,
-.table-border > tfoot > tr > td,
-.table-border > tfoot > tr > th,
-.table-border > thead > tr > td,
-.table-border > thead > tr > th {
+
+.table-border>tbody>tr>td,
+.table-border>tbody>tr>th,
+.table-border>tfoot>tr>td,
+.table-border>tfoot>tr>th,
+.table-border>thead>tr>td,
+.table-border>thead>tr>th {
   border-color: #e5e5e5;
 }
 
-.ds-table > tbody > tr > td,
-.ds-table > tbody > tr > th,
-.ds-table > tfoot > tr > td,
-.ds-table > tfoot > tr > th,
-.ds-table > thead > tr > td,
-.ds-table > thead > tr > th {
+.ds-table>tbody>tr>td,
+.ds-table>tbody>tr>th,
+.ds-table>tfoot>tr>td,
+.ds-table>tfoot>tr>th,
+.ds-table>thead>tr>td,
+.ds-table>thead>tr>th {
   border-top: 0;
 }
 
@@ -2329,12 +2408,12 @@ Google map
   border: 1px solid #e5e5e5;
 }
 
-.checkout-table > tbody > tr > td,
-.checkout-table > tbody > tr > th,
-.checkout-table > tfoot > tr > td,
-.checkout-table > tfoot > tr > th,
-.checkout-table > thead > tr > td,
-.checkout-table > thead > tr > th {
+.checkout-table>tbody>tr>td,
+.checkout-table>tbody>tr>th,
+.checkout-table>tfoot>tr>td,
+.checkout-table>tfoot>tr>th,
+.checkout-table>thead>tr>td,
+.checkout-table>thead>tr>th {
   padding: 12px;
 }
 
@@ -2352,6 +2431,7 @@ Google map
 }
 
 /* Sidebar / Widget common*/
+
 .sidebar .widget {
   margin-bottom: 60px;
 }
@@ -2374,6 +2454,7 @@ Google map
 }
 
 /* Icon List */
+
 .widget .icon-list li {
   padding: 5px 0;
 }
@@ -2385,6 +2466,7 @@ Google map
 }
 
 /* Posts */
+
 .widget-posts li {
   margin: 0 0 15px;
 }
@@ -2403,11 +2485,13 @@ Google map
 }
 
 /* Search */
+
 .search-box {
   position: relative;
 }
 
 /* Tags */
+
 .tags a {
   background: #111;
   display: inline-block;
@@ -2425,6 +2509,7 @@ Google map
 /*--------------------------------------------------------------
 	Comment Box in Blog
 --------------------------------------------------------------*/
+
 .comments,
 .comment-form {
   margin: 80px 0 0;
@@ -2469,6 +2554,7 @@ Google map
 /*--------------------------------------------------------------
 	Client
 --------------------------------------------------------------*/
+
 .client-logo {
   opacity: .5;
 }
@@ -2480,6 +2566,7 @@ Google map
 /*--------------------------------------------------------------
 	Shop Items
 --------------------------------------------------------------*/
+
 .shop-item {
   text-align: center;
   margin: 0 0 40px;
@@ -2530,6 +2617,7 @@ Google map
 }
 
 /* Shop item hover */
+
 .shop-item:hover .shop-item-image:after {
   background: rgba(255, 255, 255, 0.7);
 }
@@ -2545,6 +2633,7 @@ Google map
 /* -------------------------------------------------------------------
 	Exclusive products
 ------------------------------------------------------------------- */
+
 .ex-product {
   opacity: .7;
   transition: all 0.4s ease-in-out 0s;
@@ -2557,6 +2646,7 @@ Google map
 /*--------------------------------------------------------------
 	Shop Single Product
 --------------------------------------------------------------*/
+
 .product-gallery {
   list-style: none;
   padding: 0;
@@ -2601,6 +2691,7 @@ Google map
 /*--------------------------------------------------------------
 	Showcase Page
 --------------------------------------------------------------*/
+
 .showcase-page .showcase-page-header {
   background-color: rgba(2, 2, 2, 0.7);
 }
@@ -2631,6 +2722,7 @@ Google map
 /*--------------------------------------------------------------
 	Documentation Page
 --------------------------------------------------------------*/
+
 .documentation-page {
   font-size: 14px;
 }
@@ -2649,11 +2741,22 @@ Google map
   margin-bottom: 0;
 }
 
-.documentation-page li.L0, .documentation-page li.L1, .documentation-page li.L2, .documentation-page li.L3, .documentation-page li.L5, .documentation-page li.L6, .documentation-page li.L7, .documentation-page li.L8 {
+.documentation-page li.L0,
+.documentation-page li.L1,
+.documentation-page li.L2,
+.documentation-page li.L3,
+.documentation-page li.L5,
+.documentation-page li.L6,
+.documentation-page li.L7,
+.documentation-page li.L8 {
   list-style-type: none;
 }
 
-.documentation-page li.L1, .documentation-page li.L3, .documentation-page li.L5, .documentation-page li.L7, .documentation-page li.L9 {
+.documentation-page li.L1,
+.documentation-page li.L3,
+.documentation-page li.L5,
+.documentation-page li.L7,
+.documentation-page li.L9 {
   background: #eee;
 }
 
@@ -2665,7 +2768,9 @@ Google map
   color: #066;
 }
 
-.documentation-page .pun, .documentation-page .opn, .documentation-page .clo {
+.documentation-page .pun,
+.documentation-page .opn,
+.documentation-page .clo {
   color: #660;
 }
 
@@ -2673,15 +2778,20 @@ Google map
   color: red;
 }
 
-.documentation-page .str, .documentation-page .atv {
+.documentation-page .str,
+.documentation-page .atv {
   color: #080;
 }
 
-.documentation-page .kwd, .documentation-page .tag {
+.documentation-page .kwd,
+.documentation-page .tag {
   color: #008;
 }
 
-.documentation-page .typ, .documentation-page .atn, .documentation-page .dec, .documentation-page .var {
+.documentation-page .typ,
+.documentation-page .atn,
+.documentation-page .dec,
+.documentation-page .var {
   color: #606;
 }
 
@@ -2696,6 +2806,7 @@ Google map
 /*--------------------------------------------------------------
 	Responsive Styles - Media Queries
 --------------------------------------------------------------*/
+
 @media (min-width: 768px) {
   .navbar-transparent {
     background: transparent;
@@ -2708,7 +2819,7 @@ Google map
     visibility: hidden;
     opacity: 0;
   }
-  .navbar-custom .open > .dropdown-menu {
+  .navbar-custom .open>.dropdown-menu {
     visibility: visible;
     opacity: 1;
   }
@@ -2784,15 +2895,15 @@ Google map
     margin-top: 1px;
     margin-bottom: 0;
   }
-  .navbar-custom li > a:hover {
+  .navbar-custom li>a:hover {
     background: rgba(255, 255, 255, 0.1) !important;
   }
   .navbar-custom .navbar-nav .open .dropdown-menu .dropdown-header,
-  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+  .navbar-custom .navbar-nav .open .dropdown-menu>li>a {
     padding: 10px 25px;
   }
   .navbar-custom .navbar-nav .open .dropdown-menu .dropdown-menu .dropdown-header,
-  .navbar-custom .navbar-nav .open .dropdown-menu .dropdown-menu > li > a {
+  .navbar-custom .navbar-nav .open .dropdown-menu .dropdown-menu>li>a {
     padding: 10px 35px;
   }
   .navbar-custom li a,
@@ -2804,19 +2915,19 @@ Google map
     right: 7px;
     content: "\f107";
   }
-  .navbar-custom .nav > .open > .dropdown-toggle:after,
+  .navbar-custom .nav>.open>.dropdown-toggle:after,
   .navbar-custom .dropdown-menu .dropdown.open .dropdown-toggle:after {
     right: 7px;
     content: "\f106";
   }
   /* Shop navbar */
-  .navbar-custom .navbar-nav > li:last-child.navbar-cart > a {
+  .navbar-custom .navbar-nav>li:last-child.navbar-cart>a {
     padding-left: 15px;
   }
   .navbar-custom .cart-item-number {
     display: none;
   }
-  .navbar-custom .navbar-cart > a:after {
+  .navbar-custom .navbar-cart>a:after {
     content: "\f107";
   }
   .navbar-custom .navbar-cart-item a {
