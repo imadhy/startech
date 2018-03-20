@@ -2925,3 +2925,24 @@ Google map
     width: 100%;
   }
 }
+
+.owl-prev {
+  position: absolute;
+  top: 40%;
+  margin-left: -20px;
+}
+
+.owl-next {
+  position: absolute;
+  top: 40%;
+  right: -20px;
+}
+
+.owl-prev i, .owl-next i {
+  transform : scale(4,20); color: #ccc;
+  opacity: 1;
+}
+
+.owl-prev:hover, .owl-next:hover {
+  transform : scale(1.2,1.2);
+}
