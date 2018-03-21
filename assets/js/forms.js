@@ -4,7 +4,7 @@ var config = {
     authDomain: "startech-1521544256002.firebaseapp.com",
     databaseURL: "https://startech-1521544256002.firebaseio.com",
     projectId: "startech-1521544256002",
-    storageBucket: "",
+    storageBucket: "startech-1521544256002.appspot.com",
     messagingSenderId: "169828725009"
 };
 firebase.initializeApp(config);
