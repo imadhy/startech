@@ -2808,7 +2808,7 @@ Google map
   background: #eee;
 }
 
-.photostyle{
+.photostyle {
   height: 350px;
 }
 
@@ -2979,7 +2979,6 @@ Google map
   .navbar-custom .cart-item-number {
     display: none;
   }
-
   .navbar-custom .navbar-cart>a:after {
     content: "\f107";
   }
